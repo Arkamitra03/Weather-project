@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Tilt+Neon&display=swap');
+.box{
+    position: relative;
+    height: 500px;
+    width: 400px;
+    background-image: linear-gradient(to top left, rgb(110, 218, 246), rgb(253, 253, 250));
+    margin: 2% auto;
+    font-family: 'Tilt Neon', cursive;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.inputField input[type=search]{
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 84%;
+    background: white;
+}
+.inputField button{
+  float: right;
+  width: 12%;
+  padding: 10px;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: black;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+.inputField button:hover{
+    background: #0b7dda;
+}
+.heading{
+    display: flex;
+}
+.heading h1{
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 25%;
+}
+.heading .image{
+    width: 40%;
+    margin-top: 4%;
+}
+.text{
+    text-align: center;
+    
+}
+
